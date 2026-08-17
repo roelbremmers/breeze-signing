@@ -24,7 +24,7 @@ on:
       signing-mode:
         description: 'Windows signing backend (pfx is legacy/internal-PKI only)'
         required: true
-        default: azure-artifact-signing
+        default: pfx
         type: choice
         options:
           - azure-artifact-signing
